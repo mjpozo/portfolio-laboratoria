@@ -24,24 +24,59 @@ nav {
 .portfolio {
 	#trello {
 		@include pictPorfolio(url(../../dist/img/trello.png));
-		height: 44vh;
 	}
 	#css-garden {
 		@include pictPorfolio(url(../../dist/img/css-garden.jpg));
-		height: 20vh;
 	}
 	#tea-lovers {
 		@include pictPorfolio(url(../../dist/img/tea-lovers.jpg));
-		height: 20vh;
 	}
 	#coder-girl {
 		@include pictPorfolio(url(../../dist/img/coder-girl-floating.jpg));
+	}
+	#panda-panda {
+		@include pictPorfolio(url(../../dist/img/panda-panda.jpg));
+	}
+	#kitten-lab {
+		@include pictPorfolio(url(../../dist/img/kitten-laboratoria.jpg));
+	}
+	#insta-collage {
+		@include pictPorfolio(url(../../dist/img/insta-collage.jpg));
+	}
+	#lyft-flexbox {
+		@include pictPorfolio(url(../../dist/img/lyft-flexbox.png));
+	}
+	#save-the-koala {
+		@include pictPorfolio(url(../../dist/img/save-the-koala-2.jpg));
+	}
+	#pokedex {
+		@include pictPorfolio(url(../../dist/img/pokedex.jpg));
+	}
+	#pinterest {
+		@include pictPorfolio(url(../../dist/img/pinterest.png));
+	}
+	#labcar {
+		@include pictPorfolio(url(../../dist/img/labcar.jpg));
+	}
+	#translab {
+		@include pictPorfolio(url(../../dist/img/translab.jpg));
+	}
+	#portfolio-sass {
+		@include pictPorfolio(url(../../dist/img/portfolio-sass.jpg));
+	}
+	#photolab {
+		@include pictPorfolio(url(../../dist/img/photolab.jpg));
+	}
+	.medium {
+		padding: 1%;
+	}
+	.small {
+		padding: 2%;
+	}
+	.m {
+		height: 45vh;
+	}
+	.s {
 		height: 20vh;
 	}
-	#love-panda {
-		@include pictPorfolio(url(../../dist/img/love-love-panda-desu.jpg));
-		height: 20vh;
-	}
-
-
 }
