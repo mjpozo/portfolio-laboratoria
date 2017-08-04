@@ -1,0 +1,71 @@
+
+/*fondo*/
+.header{
+	position:relative;
+	top: -64px;
+	overflow:hidden;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+	height:100vh;
+	min-width:300px;
+	color:whitesmoke;
+	p {
+		padding: 10%;
+	}
+}
+.header:after{
+	content:"";
+	width:100%;
+	height:40%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+}
+.header:before{
+	content:"";
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+		-webkit-backface-visibility: hidden;
+		-webkit-transform: translateZ(0) scale(1.0, 1.0);
+		transform: translateZ(0);
+	background:#1B2030 url(../../dist/img/back-header.jpg) top center no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	animation: grow 60s linear 10ms infinite;
+	transition:all 0.2s ease-in-out;
+	z-index:-2
+}
+@keyframes grow{
+	0% { transform:scale(1)}
+	50% { transform:scale(1.2)}
+}
+
+
+/*letras header*/
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.H1 {
+	font: bold 300% Consolas, Monaco, monospace;
+	border-right: .1em solid white;
+	width: 16.5em;
+	width: 21ch;
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 2s steps(21, end),
+						 blink-caret .5s step-end infinite alternate;
+}
+
+/*my styles*/
+.title {
+	font-family: $font-titles;
+}

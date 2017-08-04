@@ -1,0 +1,47 @@
+
+nav {
+	background: transparent;
+}
+
+.nav-scroll {
+	transition: 0.9s;
+	background: whitesmoke;
+	a {
+		color: $letras-color-two;
+	}
+}
+
+.about {
+	
+}
+
+.tools {
+	.devicon {
+		font-size: 600%;
+	}
+}
+
+.portfolio {
+	#trello {
+		@include pictPorfolio(url(../../dist/img/trello.png));
+		height: 44vh;
+	}
+	#css-garden {
+		@include pictPorfolio(url(../../dist/img/css-garden.jpg));
+		height: 20vh;
+	}
+	#tea-lovers {
+		@include pictPorfolio(url(../../dist/img/tea-lovers.jpg));
+		height: 20vh;
+	}
+	#coder-girl {
+		@include pictPorfolio(url(../../dist/img/coder-girl-floating.jpg));
+		height: 20vh;
+	}
+	#love-panda {
+		@include pictPorfolio(url(../../dist/img/love-love-panda-desu.jpg));
+		height: 20vh;
+	}
+
+
+}

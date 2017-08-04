@@ -2,58 +2,149 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Portfolio</title>
+	<link rel="icon" type="image/ico" href="dist/img/favicon.ico">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
 
-	<nav>
-		<div class="nav-wrapper">
-			<a href="#!" class="brand-logo">Logo</a>
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			<ul class="right hide-on-med-and-down">
-				<li><a href="sass.html">Home</a></li>
-				<li><a href="badges.html">Tools</a></li>
-				<li><a href="collapsible.html">Portfolio</a></li>
-				<li><a href="mobile.html">Contact</a></li>
-			</ul>
-			<ul class="side-nav" id="mobile-demo">
-				<li><a href="sass.html">Home</a></li>
-				<li><a href="badges.html">Tools</a></li>
-				<li><a href="collapsible.html">Portfolio</a></li>
-				<li><a href="mobile.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Logo</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#my-about">About Me</a></li>
+					<li><a href="#my-tools">Tools</a></li>
+					<li><a href="#my-portfolio">Portfolio</a></li>
+					<li><a href="mobile.html">Contact</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="#my-about">About Me</a></li>
+					<li><a href="#my-tools">Tools</a></li>
+					<li><a href="#my-portfolio">Portfolio</a></li>
+					<li><a href="mobile.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 
-	
+	<div class="header">
+		<h1 class="H1">Hello , CSS-Support !</h1>
+	</div>
 
-	<!--<header class="home">
+	<div class="about" id="my-about">
 		<div class="container">
-			<div class="row">
-				<div class="col s12 m4 l4 xl4">
-					<img src="dist/img/gatito1.jpg" alt="" class="responsive-img circle">
+			<div class="row center">
+				<h1 class="title">about me</h1>
+				<div class="col s12 m6 l6 xl6">
+					<p>Mi nombre es María José Pozo, tengo 31 años y actualmente me estoy formando en laboratoria. <br> Soy licenciada en ciencias con mención en física y desarrolladora FrontEnd Junior. <br> La lógica matemática y la investigación son lo mío, lo que me convierte en una persona curiosa y a la que le gusta aprender cosas nuevas constantemente. Soy entusiasta y colaborativa, pues considero importante compartir los conocimientos en el trabajo en equipo. Me apasiona bailar, leer y pasar mi tiempo libre creando a través del arte. Ambisiono la superación personal, los retos y asumir nuevas responsabilidades.</p>
 				</div>
-				<div class="col s12 m8 l8 xl8">
-					<h4>My name is Bond</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, veniam neque corporis accusantium soluta doloribus voluptates? Enim neque temporibus laboriosam eum dignissimos tenetur sint ab, culpa, et perspiciatis, quibusdam quam.</p>
+				<div class="col s12 m6 l6 xl6">
+					<img src="dist/img/me.jpg" alt="" class="responsive-img">
 				</div>
 			</div>
 		</div>
-	</header>-->
+	</div>
 
-	<section class="tools">
-		<div class="container section-tools">
+	<section class="tools" id="my-tools">
+		<div class="container section-tools center">
+			<h1 class="title">tools</h1>
 			<div class="row">
 				<div class="col s12 m4 l4 xl4">
+					<i class="devicon devicon-html5-plain-wordmark"></i>
 				</div>
 				<div class="col s12 m4 l4 xl4">
-				<!--</div><svg viewBox="0 0 128 128">
-<path fill="#1572B6" d="M18.814 114.123l-10.054-112.771h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"></path><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"></path><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163h-19.566v-13.831h34.681999999999995l-.332 3.711-3.4 38.114h-30.95v-13.831z"></path><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031h-13.882l1.937 21.717 28.331 7.863.063-.018v-14.39z"></path><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881h-13.876z"></path><path fill="#EBEBEB" d="M64.048 23.435v13.831000000000001h-33.407999999999994l-.277-3.108-.63-7.012-.331-3.711h34.646zM64.001 51.431v13.831000000000001h-15.209l-.277-3.108-.631-7.012-.33-3.711h16.447z"></path>
-</svg>-->
+					<i class="devicon devicon-css3-plain-wordmark"></i>
+				</div>
 				<div class="col s12 m4 l4 xl4">
-					
+					<i class="devicon devicon-javascript-plain"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4 l4 xl4">
+					<i class="devicon devicon-bootstrap-plain-wordmark"></i>
+				</div>
+				<div class="col s12 m4 l4 xl4">
+					<i class="devicon devicon-github-plain-wordmark"></i>
+				</div>
+				<div class="col s12 m4 l4 xl4">
+					<i class="devicon devicon-gulp-plain"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4 l4 xl4">
+					<i class="devicon devicon-jquery-plain-wordmark"></i>
+				</div>
+				<div class="col s12 m4 l4 xl4">
+					<i class="devicon devicon-linux-plain"></i>
+				</div>
+				<div class="col s12 m4 l4 xl4">
+					<i class="devicon devicon-sass-original"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio" id="my-portfolio">
+		<div class="container section-portfolio center">
+			<h1 class="title">portfolio</h1>
+			<div class="row">
+				<div class="col s12 m12 l6" id="trello">
+				</div>
+				<div class="col s12 m12 l6">
+					<div class="row">
+						<div class="col s12 m6 l6" id="css-garden">
+						</div>
+						<div class="col s12 m6 l6" id="tea-lovers">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12 m6 l6" id="coder-girl">
+						</div>
+						<div class="col s12 m6 l6" id="love-panda">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<div class="row">
+						<div class="col s12 m6 l6" id="css-garden">
+						</div>
+						<div class="col s12 m6 l6" id="tea-lovers">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12 m6 l6" id="coder-girl">
+						</div>
+						<div class="col s12 m6 l6" id="love-panda">
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m12 l6" id="trello">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l6" id="trello">
+				</div>
+				<div class="col s12 m12 l6">
+					<div class="row">
+						<div class="col s12 m6 l6" id="css-garden">
+						</div>
+						<div class="col s12 m6 l6" id="tea-lovers">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12 m6 l6" id="coder-girl">
+						</div>
+						<div class="col s12 m6 l6" id="love-panda">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

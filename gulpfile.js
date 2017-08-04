@@ -21,7 +21,7 @@ gulp.task('style',function(){
 });
 
 gulp.task('watch', function() {
-	gulp.watch('assets/sass/*.scss', ['variables','mixin','bases','style']);
+	gulp.watch('assets/sass/*.scss', ['style']);
 });
 
 gulp.task('webserver',function(){
