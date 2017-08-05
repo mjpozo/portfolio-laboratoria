@@ -75,8 +75,64 @@ nav {
 	}
 	.m {
 		height: 45vh;
+		border-radius: 10px;
 	}
 	.s {
 		height: 20vh;
+		border-radius: 9px;
+	}
+	.proyect {
+		cursor: pointer;
+		position: relative;
+	}
+	.text {
+		display: none;
+		span {
+			font-size: 13px;
+			font-weight: bold;
+			background: $letras-color-two;
+			border-radius: 10px;
+			padding: 6px 13px;
+		}
+		ul li {
+			display: inline-block;
+			a {
+				font-size: 14px;
+				padding: 0 4px;
+				font-weight: bold;
+				color: whitesmoke;
+			}
+			a:hover {
+				color: $letras-color-two;
+			}
+		}
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		transition: .5s ease;
+		background-color: transparent;
+		border-radius: 10px;
+	}
+	.proyect:hover .overlay {
+		background-color: rgba(80, 24, 81,.5);
+	}
+	.proyect:hover .overlay .text {
+		height: 100%;
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 10px;
+		position: absolute;
+		top: 0;
+		left: 2%;
 	}
 }
