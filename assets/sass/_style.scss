@@ -23,49 +23,49 @@ nav {
 
 .portfolio {
 	#trello {
-		@include pictPorfolio(url(../../dist/img/trello.png));
+		@include pictFondo(url(../../dist/img/trello.png));
 	}
 	#css-garden {
-		@include pictPorfolio(url(../../dist/img/css-garden.jpg));
+		@include pictFondo(url(../../dist/img/css-garden.jpg));
 	}
 	#tea-lovers {
-		@include pictPorfolio(url(../../dist/img/tea-lovers.jpg));
+		@include pictFondo(url(../../dist/img/tea-lovers.jpg));
 	}
 	#coder-girl {
-		@include pictPorfolio(url(../../dist/img/coder-girl-floating.jpg));
+		@include pictFondo(url(../../dist/img/coder-girl-floating.jpg));
 	}
 	#panda-panda {
-		@include pictPorfolio(url(../../dist/img/panda-panda.jpg));
+		@include pictFondo(url(../../dist/img/panda-panda.jpg));
 	}
 	#kitten-lab {
-		@include pictPorfolio(url(../../dist/img/kitten-laboratoria.jpg));
+		@include pictFondo(url(../../dist/img/kitten-laboratoria.jpg));
 	}
 	#insta-collage {
-		@include pictPorfolio(url(../../dist/img/insta-collage.jpg));
+		@include pictFondo(url(../../dist/img/insta-collage.jpg));
 	}
 	#lyft-flexbox {
-		@include pictPorfolio(url(../../dist/img/lyft-flexbox.png));
+		@include pictFondo(url(../../dist/img/lyft-flexbox.png));
 	}
 	#save-the-koala {
-		@include pictPorfolio(url(../../dist/img/save-the-koala-2.jpg));
+		@include pictFondo(url(../../dist/img/save-the-koala-2.jpg));
 	}
 	#pokedex {
-		@include pictPorfolio(url(../../dist/img/pokedex.jpg));
+		@include pictFondo(url(../../dist/img/pokedex.jpg));
 	}
 	#pinterest {
-		@include pictPorfolio(url(../../dist/img/pinterest.png));
+		@include pictFondo(url(../../dist/img/pinterest.png));
 	}
 	#labcar {
-		@include pictPorfolio(url(../../dist/img/labcar.jpg));
+		@include pictFondo(url(../../dist/img/labcar.jpg));
 	}
 	#translab {
-		@include pictPorfolio(url(../../dist/img/translab.jpg));
+		@include pictFondo(url(../../dist/img/translab.jpg));
 	}
 	#portfolio-sass {
-		@include pictPorfolio(url(../../dist/img/portfolio-sass.jpg));
+		@include pictFondo(url(../../dist/img/portfolio-sass.jpg));
 	}
 	#photolab {
-		@include pictPorfolio(url(../../dist/img/photolab.jpg));
+		@include pictFondo(url(../../dist/img/photolab.jpg));
 	}
 	.medium {
 		padding: 1%;
@@ -134,5 +134,38 @@ nav {
 		position: absolute;
 		top: 0;
 		left: 2%;
+	}
+}
+
+.contact {
+	@include pictFondo(url(../../dist/img/back-header.jpg));
+	background-attachment:fixed;
+	height: 100vh;
+	.cont-info {
+		background: rgba(0,0,0,.6);
+		height: 100vh;
+		color: white;
+		.section-contact {
+			padding: 64px 0;
+			a {
+				color: white;
+			}
+			a:hover {
+				color: $letras-color-two;
+			}
+			.social {
+				font-size: 600%;
+			}
+			.cont-mail {
+				background: whitesmoke;
+				color: black;
+				font-family: $font-titles;
+				font-weight: bold;
+				font-size: 130%;
+				padding: 2% 4%;
+				margin-top: 3%;
+				border-radius: 5px;
+			}
+		}
 	}
 }
