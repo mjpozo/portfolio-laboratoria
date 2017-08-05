@@ -7,7 +7,7 @@ nav {
 	transition: 0.9s;
 	background: whitesmoke;
 	a {
-		color: $letras-color-two;
+		color: $letras-color-one;
 	}
 }
 
@@ -167,5 +167,21 @@ nav {
 				border-radius: 5px;
 			}
 		}
+	}
+}
+
+footer {
+	background: whitesmoke !important;
+	h5 {
+		color: $letras-color-one !important;
+	}
+	p, span {
+		color: grey !important;
+	}
+	a {
+		color: $letras-color-one !important;
+	}
+	.lab {
+		float: right;
 	}
 }
