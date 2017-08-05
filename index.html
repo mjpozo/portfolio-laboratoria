@@ -6,7 +6,7 @@
 	<title>Portfolio</title>
 	<link rel="icon" type="image/ico" href="dist/img/favicon.ico">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Source+Code+Pro" rel="stylesheet">
 	<script src="https://use.fontawesome.com/be0dd1e218.js"></script>
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link rel="stylesheet" href="dist/css/style.min.css">
@@ -39,14 +39,26 @@
 	</div>
 
 	<div class="about" id="my-about">
-		<div class="container">
+		<div class="container section-about z-depth-5">
 			<div class="row center">
 				<h1 class="title">about me</h1>
-				<div class="col s12 m6 l6 xl6">
+				<div class="col s12 m6 l6 xl6 cont-about">
 					<p>Mi nombre es María José Pozo, tengo 31 años y actualmente me estoy formando en laboratoria. <br> Soy licenciada en ciencias con mención en física y desarrolladora FrontEnd Junior. <br> La lógica matemática y la investigación son lo mío, lo que me convierte en una persona curiosa y a la que le gusta aprender cosas nuevas constantemente. Soy entusiasta y colaborativa, pues considero importante compartir los conocimientos en el trabajo en equipo. Me apasiona bailar, leer y pasar mi tiempo libre creando a través del arte. Ambisiono la superación personal, los retos y asumir nuevas responsabilidades.</p>
+					<h5 class="title">Distinciones en Laboratoria</h5>
+					<div class="row">
+						<div class="col s4 m4 l4 xl4 cont-dist">
+							<img src="dist/img/5mejores.png" alt="cinco-mejores" class="responsive-img">
+						</div>
+						<div class="col s4 m4 l4 xl4 cont-dist">
+							<img src="dist/img/mejor-squad.png" alt="mejor-squad" class="responsive-img best-squad">
+						</div>
+						<div class="col s4 m4 l4 xl4 cont-dist">
+							<img src="dist/img/unicornio.png" alt="unicornio" class="responsive-img">
+						</div>
+					</div>
 				</div>
 				<div class="col s12 m6 l6 xl6">
-					<img src="dist/img/me.jpg" alt="" class="responsive-img">
+					<img src="dist/img/me.jpg" alt="foto-perfil" class="responsive-img z-depth-2">
 				</div>
 			</div>
 		</div>
@@ -56,35 +68,35 @@
 		<div class="container section-tools center">
 			<h1 class="title">tools</h1>
 			<div class="row">
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-html5-plain-wordmark"></i>
 				</div>
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-css3-plain-wordmark"></i>
 				</div>
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-javascript-plain"></i>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-bootstrap-plain-wordmark"></i>
 				</div>
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-github-plain-wordmark"></i>
 				</div>
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-gulp-plain"></i>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-jquery-plain-wordmark"></i>
 				</div>
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-linux-plain"></i>
 				</div>
-				<div class="col s12 m4 l4 xl4">
+				<div class="col s12 m4 l4 xl4 cont-icons">
 					<i class="devicon devicon-sass-original"></i>
 				</div>
 			</div>
@@ -92,11 +104,11 @@
 	</section>
 
 	<section class="portfolio" id="my-portfolio">
-		<div class="container section-portfolio center">
+		<div class="container section-portfolio center z-depth-5">
 			<h1 class="title">portfolio</h1>
 			<div class="row">
 				<div class="col s12 m12 l6 medium">
-					<div class="proyect m" id="trello">
+					<div class="proyect m z-depth-4" id="trello">
 						<div class="overlay">
 							<div class="text">
 								<span class="title">Trello</span>
@@ -111,7 +123,7 @@
 				<div class="col s12 m12 l6">
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="css-garden">
+							<div class="proyect s z-depth-4" id="css-garden">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">CSS-Garden</span>
@@ -124,7 +136,7 @@
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="tea-lovers">
+							<div class="proyect s z-depth-4" id="tea-lovers">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Tea Lovers</span>
@@ -139,7 +151,7 @@
 					</div>
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="coder-girl">
+							<div class="proyect s z-depth-4" id="coder-girl">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Coder Girl Floating</span>
@@ -152,7 +164,7 @@
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="panda-panda">
+							<div class="proyect s z-depth-4" id="panda-panda">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Panda Panda</span>
@@ -171,7 +183,7 @@
 				<div class="col s12 m12 l6">
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="kitten-lab">
+							<div class="proyect s z-depth-4" id="kitten-lab">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Kitten Laboratoria</span>
@@ -184,7 +196,7 @@
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="insta-collage">
+							<div class="proyect s z-depth-4" id="insta-collage">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Insta Collage</span>
@@ -199,7 +211,7 @@
 					</div>
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="lyft-flexbox">
+							<div class="proyect s z-depth-4" id="lyft-flexbox">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Lyft Flexbox</span>
@@ -212,7 +224,7 @@
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="save-the-koala">
+							<div class="proyect s z-depth-4" id="save-the-koala">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Save the Koala</span>
@@ -227,7 +239,7 @@
 					</div>
 				</div>
 				<div class="col s12 m12 l6 medium">
-					<div class="proyect m" id="pokedex">
+					<div class="proyect m z-depth-4" id="pokedex">
 						<div class="overlay">
 							<div class="text">
 								<span class="title">Pokedex</span>
@@ -242,7 +254,7 @@
 			</div>
 			<div class="row">
 				<div class="col s12 m12 l6 medium">
-					<div class="proyect m" id="pinterest">
+					<div class="proyect m z-depth-4" id="pinterest">
 						<div class="overlay">
 							<div class="text">
 								<span class="title">Pinterest</span>
@@ -257,7 +269,7 @@
 				<div class="col s12 m12 l6">
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="labcar">
+							<div class="proyect s z-depth-4" id="labcar">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Labcar</span>
@@ -270,7 +282,7 @@
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="translab">
+							<div class="proyect s z-depth-4" id="translab">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Trans Lab</span>
@@ -285,7 +297,7 @@
 					</div>
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="portfolio-sass">
+							<div class="proyect s z-depth-4" id="portfolio-sass">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Portfolio Sass</span>
@@ -298,7 +310,7 @@
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s" id="photolab">
+							<div class="proyect s z-depth-4" id="photolab">
 								<div class="overlay">
 									<div class="text">
 										<span class="title">Photolab</span>

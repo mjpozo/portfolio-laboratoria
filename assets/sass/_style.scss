@@ -12,16 +12,62 @@ nav {
 }
 
 .about {
-	
+	.section-about {
+		width: 90%;
+		padding: 5%;
+		background: whitesmoke;
+		h1, h5 {
+			color: $letras-color-two;
+		}
+		.cont-about {
+			padding: 1% 3%;
+			.cont-dist {
+				.best-squad {
+					position: relative;
+					top: 5vh;
+				}
+			}
+			h5 {
+				margin: 6% 0 3% 0;
+			}
+		}
+		p {
+			color: $letras-color-one;
+			font-family: $font-texts;
+			font-size: 115%;
+		}
+		img {
+			margin: 1%;
+			border-radius: 5px;
+		}
+	}
 }
 
 .tools {
+	padding: 7% 0;
+	h1 {
+		color: $letras-color-one;
+		margin-bottom: 5%;
+	}
+	.cont-icons {
+		padding-bottom: 4vh;
+	}
 	.devicon {
 		font-size: 600%;
+		color: $letras-color-two;
 	}
 }
 
 .portfolio {
+	.section-portfolio {
+		width: 90%;
+		padding: 5%;
+		margin-bottom: 4%;
+		background: whitesmoke;
+		h1 {
+			color: $letras-color-one;
+		}
+	}
 	#trello {
 		@include pictFondo(url(../../dist/img/trello.png));
 	}
@@ -38,7 +84,7 @@ nav {
 		@include pictFondo(url(../../dist/img/panda-panda.jpg));
 	}
 	#kitten-lab {
-		@include pictFondo(url(../../dist/img/kitten-laboratoria.jpg));
+		@include pictFondo(url(../../dist/img/kitten-laboratoria.jpeg));
 	}
 	#insta-collage {
 		@include pictFondo(url(../../dist/img/insta-collage.jpg));
@@ -74,11 +120,11 @@ nav {
 		padding: 2%;
 	}
 	.m {
-		height: 45vh;
+		height: 50vh;
 		border-radius: 10px;
 	}
 	.s {
-		height: 20vh;
+		height: 22vh;
 		border-radius: 9px;
 	}
 	.proyect {
@@ -120,7 +166,7 @@ nav {
 		border-radius: 10px;
 	}
 	.proyect:hover .overlay {
-		background-color: rgba(80, 24, 81,.5);
+		background-color: rgba(80, 24, 81,.7);
 	}
 	.proyect:hover .overlay .text {
 		height: 100%;
@@ -145,6 +191,10 @@ nav {
 		background: rgba(0,0,0,.6);
 		height: 100vh;
 		color: white;
+		p {
+			font-family: $font-texts;
+			font-size: 130%;
+		}
 		.section-contact {
 			padding: 64px 0;
 			a {
@@ -180,6 +230,9 @@ footer {
 	}
 	a {
 		color: $letras-color-one !important;
+	}
+	a:hover {
+		color: $letras-color-two !important;
 	}
 	.lab {
 		float: right;
