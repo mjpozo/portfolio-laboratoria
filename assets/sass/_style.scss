@@ -1,6 +1,18 @@
 
 nav {
 	background: transparent;
+	ul {
+		padding-right: 5% !important;
+		li a {
+			font-family: $font-texts;
+			font-size: 140%;
+		}
+	}
+	.brand-logo {
+		padding-left: 5% !important;
+		font-family: $font-titles;
+		font-weight: bold;
+	}
 }
 
 .nav-scroll {
