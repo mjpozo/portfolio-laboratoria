@@ -12,5 +12,23 @@ $(document).ready(function(){
 		}
 	});
 
+	//creamos los overlay
+	proyect.forEach(function(element){
+		$("#" + element.id).append('<div class="overlay"><div class="text"><span class="title">' + element.title + '</span><br><a class="modal-trigger description" href="#modal-' + element.id + '" id="desc-"' + element.id + '>descripcion</a><ul><li><a href="' + element.code + '" target="_blank">code</a></li><li><a href="' + element.url + '" target="_blank">demo</a></li></ul></div></div>');
+		
+		$(".contenedor-modal").append('<div id="modal-' + element.id + '" class="modal"><div class="modal-content"><h4>' + element.title + '</h4><div class="row"><div class="col s12 m6 l6 xl6 center"><img src="../../dist/img/' + element.img + '" class="responsive-img"></div><div class="col s12 m6 l6 xl6"><p>' + element.description + '</p></div></div><div class="row"><div class="col s12 m6 l6 xl6"><a href="' + element.code + '" class="waves-effect waves-light modal-close btn right" target="_blank">code</a></div><div class="col s12 m6 l6 xl6"><a href="' + element.url + '" class="waves-effect waves-light modal-close btn" target="_blank">demo</a></div></div></div><div class="modal-footer"><a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a></div></div>');
+	});
+
+	//inicializacion de modal
+	$('.modal').modal();
 
 });
+
+/*'<div class="row">
+	<div class="col s12 m6 l6 xl6">
+		<a href="' + element.code + '" class="waves-effect waves-light modal-close btn right" target="_blank">code</a>
+	</div>
+	<div class="col s12 m6 l6 xl6">
+		<a href="' + element.url + '" class="waves-effect waves-light modal-close btn" target="_blank">demo</a>
+	</div>
+</div>*/

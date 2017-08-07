@@ -152,6 +152,17 @@ nav {
 			border-radius: 10px;
 			padding: 6px 13px;
 		}
+		.description {
+			font-size: 12px;
+			font-weight: bold;
+			color: whitesmoke;
+		}
+		.description:hover {
+			background: $letras-color-one;
+			padding: 5px 10px;
+			border-radius: 10px;
+			transition: .5s;
+		}
 		ul li {
 			display: inline-block;
 			a {
@@ -162,6 +173,7 @@ nav {
 			}
 			a:hover {
 				color: $letras-color-two;
+			transition: .4s;
 			}
 		}
 	}
@@ -192,6 +204,23 @@ nav {
 		position: absolute;
 		top: 0;
 		left: 2%;
+	}
+}
+
+.contenedor-modal {
+	img {
+		border-radius: 15px;
+	}
+	h4 {
+		font-family: $font-titles;
+	}
+	p {
+		font-family: $font-texts;
+		font-size: 110%;
+	}
+	.btn {
+		background: $letras-color-two;
+		border: 1px solid $letras-color-two;
 	}
 }
 
