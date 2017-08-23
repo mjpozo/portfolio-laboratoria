@@ -36,6 +36,17 @@
 	</div>
 
 	<div class="header hide-on-large-only">
+		<h4 class="name" id="tech">María Jose Pozo</h4>
+		<h5 class="H1" id="science">Desarrolladora</h5>
+		<h5 class="H1" id="code">FrontEnd</h5>
+	</div>
+
+	<div class="header hide-on-med-and-down">
+		<h1 class="name">María José Pozo</h1>
+		<h1 class="H1" id="tech">Desarrolladora FrontEnd</h1>
+	</div>
+
+	<!--<div class="header hide-on-large-only">
 		<h1 class="H1" id="tech"><i class="fa fa-heart" aria-hidden="true"></i> Tech</h1>
 		<h1 class="H1" id="science"><i class="fa fa-heart" aria-hidden="true"></i> Science</h1>
 		<h1 class="H1" id="code"><i class="fa fa-heart" aria-hidden="true"></i> CODE</h1>
@@ -43,13 +54,13 @@
 
 	<div class="header hide-on-med-and-down">
 		<h1 class="H1" id="tech"><i class="fa fa-heart" aria-hidden="true"></i> Tech, Science & CODE</h1>
-	</div>
+	</div>-->
 
 	<div class="about" id="my-about">
 		<div class="container section-about z-depth-5">
-			<div class="row center">
+			<div class="row center hide-on-med-and-down">
 				<h1 class="title">sobre mí</h1>
-				<div class="col s12 m7 l7 xl7 cont-about">
+				<div class="col l7 xl7 cont-about">
 					<p>Mi nombre es María José Pozo<br> Soy Licenciada en Física y Desarrolladora FrontEnd Junior. <br> La lógica matemática y la investigación son lo mío, lo que me convierte en una persona curiosa y a la que le gusta aprender cosas nuevas constantemente. Soy entusiasta y colaborativa, pues considero importante compartir los conocimientos en el trabajo en equipo. Me apasiona bailar, leer y pasar mi tiempo libre creando a través del arte. Ambiciono la superación personal, los retos y asumir nuevas responsabilidades.</p>
 					<!--<h5 class="title">Distinciones en Laboratoria</h5>
 					<div class="row">
@@ -64,8 +75,17 @@
 						</div>
 					</div>-->
 				</div>
-				<div class="col s12 m5 l5 xl5">
+				<div class="col l5 xl5">
 					<img src="dist/img/me.jpg" alt="foto-perfil" class="responsive-img z-depth-2">
+				</div>
+			</div>
+			<div class="row center hide-on-large-only">
+				<h1 class="title">sobre mí</h1>
+				<div class="col s12 m12 xl5">
+					<img src="dist/img/me.jpg" alt="foto-perfil" class="responsive-img z-depth-2">
+				</div>
+				<div class="col s12 m12 xl7 cont-about">
+					<p>Mi nombre es María José Pozo<br> Soy Licenciada en Física y Desarrolladora FrontEnd Junior. <br> La lógica matemática y la investigación son lo mío, lo que me convierte en una persona curiosa y a la que le gusta aprender cosas nuevas constantemente. Soy entusiasta y colaborativa, pues considero importante compartir los conocimientos en el trabajo en equipo. Me apasiona bailar, leer y pasar mi tiempo libre creando a través del arte. Ambiciono la superación personal, los retos y asumir nuevas responsabilidades.</p>
 				</div>
 			</div>
 		</div>
@@ -75,47 +95,53 @@
 		<div class="container section-tools center">
 			<h1 class="title">herramientas</h1>
 			<div class="row">
-				<div class="col s12 m5 l5 xl5 cont-icons">
-					<img src="dist/img/tools-front-end.png" alt="" class="responsive-img">
-					<!--<i class="devicon devicon-html5-plain-wordmark animated rotateIn"></i>-->
+				<div class="col s12 m12 l5 xl5 cont-icons">
+					<div class="col s12 m4 l4 xl4">
+						<img src="dist/img/tools-html.png" alt="" class="logo-front-end">
+					</div>
+					<div class="col s12 m4 l4 xl4">
+						<img src="dist/img/tools-css.png" alt="" class="logo-front-end">
+					</div>
+					<div class="col s12 m4 l4 xl4">
+						<img src="dist/img/tools-js.png" alt="" class="logo-front-end">
+					</div>
 				</div>
-				<!--<div class="col s12 m4 l4 xl4 cont-icons">
-					<i class="devicon devicon-css3-plain-wordmark"></i>
-				</div>-->
 				<div class="col s12 offset-m2 offset-l2 offset-xl2 m5 l5 xl5 cont-icons">
-					<div class="col s12 m6 l6 xl6">
-						<img src="dist/img/tools-github.png" alt="" class="responsive-img">
+					<div class="col s12 m4 l4 xl4">
+						<img src="dist/img/tools-github.png" alt="" class="logo-gestion">
 					</div>
-					<div class="col s12 m6 l6 xl6">
-						<img src="dist/img/tools-gulp.png" alt="" class="responsive-img">
+					<div class="col s12 m4 l4 xl4">
+						<img src="dist/img/tools-gulp.svg" alt="" class="logo-gestion">
 					</div>
-					<!--<i class="devicon devicon-javascript-plain"></i>-->
+					<div class="col s12 m4 l4 xl4">
+						<img src="dist/img/tools-trello.png" alt="" class="logo-gestion trello">
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12 m4 l4 xl4 cont-icons">
-
-					<!--<i class="devicon devicon-bootstrap-plain-wordmark"></i>-->
+				<div class="col s12 m12 l6 xl6 cont-icons fl">
+					<div class="col s12 m3 l3 xl3">
+						<img src="dist/img/tools-bootstrap.png" alt="" class="frame-lib">
+					</div>
+					<div class="col s12 m3 l3 xl3">
+						<img src="dist/img/tools-materialize.png" alt="" class="frame-lib">
+					</div>
+					<div class="col s12 m3 l3 xl3">
+						<img src="dist/img/tools-sass.png" alt="" class="frame-lib">
+					</div>
+					<div class="col s12 m3 l3 xl3">
+						<img src="dist/img/tools-jquery.gif" alt="" class="frame-lib">
+					</div>
 				</div>
-				<!--<div class="col s12 m4 l4 xl4 cont-icons">
-					<i class="devicon devicon-github-plain-wordmark"></i>
-				</div>-->
-				<div class="col s12 m4 l4 xl4 cont-icons">
-
-					<!--<i class="devicon devicon-gulp-plain"></i>-->
+				<div class="col s12 m6 l6 xl6 cont-icons doc">
+					<div class="col s12 m6 l6 xl6">
+						<img src="dist/img/tools-linux.jpg" alt="" class="doc">
+					</div>
+					<div class="col s12 offset-m1 offset-l1 offset-xl1 m5 l5 xl5">
+						<img src="dist/img/tools-LaTeX.png" alt="" class="doc">
+					</div>
 				</div>
 			</div>
-			<!--<div class="row">
-				<div class="col s12 m4 l4 xl4 cont-icons">
-					<i class="devicon devicon-jquery-plain-wordmark"></i>
-				</div>
-				<div class="col s12 m4 l4 xl4 cont-icons">
-					<i class="devicon devicon-linux-plain"></i>
-				</div>
-				<div class="col s12 m4 l4 xl4 cont-icons">
-					<i class="devicon devicon-sass-original"></i>
-				</div>
-			</div>-->
 		</div>
 	</section>
 
@@ -124,31 +150,31 @@
 			<h1 class="title">portafolio</h1>
 			<div class="row">
 				<div class="col s12 m12 l6 medium">
-					<div class="proyect m z-depth-4" id="trello">
+					<div class="proyect m z-depth-4" id="labcar">
 						<!--overlay-->
 					</div>
 				</div>
 				<div class="col s12 m12 l6">
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s z-depth-4" id="css-garden">
+							<div class="proyect s z-depth-4" id="portfolio-sass">
 								<!--overlay-->
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s z-depth-4" id="tea-lovers">
+							<div class="proyect s z-depth-4" id="translab">
 								<!--overlay-->
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s z-depth-4" id="coder-girl">
+							<div class="proyect s z-depth-4" id="photolab">
 								<!--overlay-->
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s z-depth-4" id="panda-panda">
+							<div class="proyect s z-depth-4" id="trello">
 								<!--overlay-->
 							</div>
 						</div>
@@ -159,7 +185,7 @@
 				<div class="col s12 m12 l6">
 					<div class="row">
 						<div class="col s12 m6 l6 small">
-							<div class="proyect s z-depth-4" id="kitten-lab">
+							<div class="proyect s z-depth-4" id="panda-panda">
 								<!--overlay-->
 							</div>
 						</div>
@@ -183,44 +209,44 @@
 					</div>
 				</div>
 				<div class="col s12 m12 l6 medium">
-					<div class="proyect m z-depth-4" id="pokedex">
+					<div class="proyect m z-depth-4" id="pinterest">
 						<!--overlay-->
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!--<div class="row">
 				<div class="col s12 m12 l6 medium">
 					<div class="proyect m z-depth-4" id="pinterest">
-						<!--overlay-->
+						
 					</div>
 				</div>
 				<div class="col s12 m12 l6">
 					<div class="row">
 						<div class="col s12 m6 l6 small">
 							<div class="proyect s z-depth-4" id="labcar">
-								<!--overlay-->
+								
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
 							<div class="proyect s z-depth-4" id="translab">
-								<!--overlay-->
+								
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col s12 m6 l6 small">
 							<div class="proyect s z-depth-4" id="portfolio-sass">
-								<!--overlay-->
+								
 							</div>
 						</div>
 						<div class="col s12 m6 l6 small">
 							<div class="proyect s z-depth-4" id="photolab">
-								<!--overlay-->
+								
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</section>
 
@@ -235,14 +261,16 @@
 					<p>Contactame en mis redes sociales</p>-->
 				</div>
 				<div class="row">
-					<div class="col s12 m5 l5">
-						<a href="https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-pozo-maraga%C3%B1o-b31574b8/" target="_blank"><i class="fa fa-linkedin-square social" aria-hidden="true"></i></a>
-					</div>
-					<!--<div class="col s12 m4 l4">
-						<a href="https://slack.com/" target="_blank"><i class="devicon-slack-plain-wordmark social"></i></a>
-					</div>-->
-					<div class="col s12 m5 offset-m2 l5 offset-l2">
-						<a href="https://github.com/mjpozo" target="_blank"><i class="devicon-github-plain social"></i></a>
+					<div class="col s12 offset-m4 m4 offset-l4 l4">
+						<div class="col s12 m6 l6">
+							<a href="https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-pozo-maraga%C3%B1o-b31574b8/" target="_blank"><i class="fa fa-linkedin-square social" aria-hidden="true"></i></a>
+						</div>
+						<!--<div class="col s12 m4 l4">
+							<a href="https://slack.com/" target="_blank"><i class="devicon-slack-plain-wordmark social"></i></a>
+						</div>-->
+						<div class="col s12 m6 l6">
+							<a href="https://github.com/mjpozo" target="_blank"><i class="devicon-github-plain social"></i></a>
+						</div>
 					</div>
 				</div>
 				<div class="row">
@@ -256,7 +284,7 @@
 	</section>
 
 	<footer class="page-footer">
-		<div class="container">
+		<!--<div class="container">
 			<div class="row">
 				<div class="col l6 s12">
 					<h5 class="title">Credits</h5>
@@ -270,7 +298,7 @@
 					</ul>
 				</div>
 			</div>
-		</div>
+		</div>-->
 		<div class="footer-copyright">
 			<div class="container">
 				<span>© 2017 María José Pozo Maragaño</span>

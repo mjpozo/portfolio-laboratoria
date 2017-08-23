@@ -54,17 +54,21 @@
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
+.name {
+	font: bold 315% Consolas, Monaco, monospace;
+}
+
 .H1 {
-	font: bold 350% Consolas, Monaco, monospace;
+	font: bold 300% Consolas, Monaco, monospace;
 	border-right: .1em solid white;
-	margin: 20px 1em;
+	margin: 15px 1em;
 	white-space: nowrap;
 	overflow: hidden;
 	-webkit-animation: typing 2s steps(21, end),
 						 blink-caret .5s step-end infinite alternate;
 	@media (min-width: 1px) and (max-width: 600px){
 		#tech {
-			width: 4.5em;
+			width: 15em;
 		}
 		#science {
 			width: 6em;
@@ -85,7 +89,7 @@
 		}
 	}
 	@media (min-width: 992px) and (max-width: 1400px){
-		width: 14em;
+		width: 14.2em;
 	}
 }
 
