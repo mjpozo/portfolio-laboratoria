@@ -65,35 +65,33 @@ nav {
 	.cont-icons {
 		padding-bottom: 4vh;
 	}
-	.devicon {
-		font-size: 600%;
-		color: $letras-color-two;
-	}
 	.logo-front-end {
 		width: 80%;
 	}
-	.logo-gestion {
-		@media (min-width: 1px) and (max-width: 600px){
-			
-		}
-		@media (min-width: 601px) and (max-width: 991px){
-			
-		}
-		@media (min-width: 992px) and (max-width: 1400px){
-			height: 17vh;
+	
+	@media (min-width: 1px) and (max-width: 600px){
+		.logo {
+			width: 40vw;
+			margin: 9% auto;
 		}
 	}
-	.trello {
-		@media (min-width: 992px) and (max-width: 1400px){
+	@media (min-width: 601px) and (max-width: 991px){
+		
+	}
+	@media (min-width: 992px) and (max-width: 1400px){
+		.logo-gestion {
+			height: 17vh;
+		}
+		.trello {
 			height: 10vh;
 			position: relative;
 			top: 5vh;
 		}
-	}
-	.cont-icons.fl {
-		position: relative;
-		left: -8vw;
-		width: 65%;
+		.cont-icons.fl {
+			position: relative;
+			left: -8vw;
+			width: 65%;
+		}
 	}
 	.frame-lib {
 		@media (min-width: 1px) and (max-width: 600px){
@@ -106,9 +104,6 @@ nav {
 			height: 12vh;
 		}
 	}
-	.cont-icons.doc {
-		width: 26%;
-	}
 	.doc {
 		@media (min-width: 1px) and (max-width: 600px){
 			
@@ -118,11 +113,17 @@ nav {
 		}
 		@media (min-width: 992px) and (max-width: 1400px){
 			height: 12vh;
+			.cont-icons.doc {
+				width: 26%;
+			}
 		}
 	}
 }
 
 .portfolio {
+	h1 {
+		margin-bottom: 6%;
+	}
 	.section-portfolio {
 		width: 90%;
 		padding: 5%;
@@ -193,6 +194,9 @@ nav {
 			font-size: 12px;
 			font-weight: bold;
 			color: whitesmoke;
+			@media (min-width: 1px) and (max-width: 600px){
+				font-size: 180%;
+			}
 		}
 		.description:hover {
 			background: $letras-color-one;
@@ -225,6 +229,9 @@ nav {
 		transition: .5s ease;
 		background-color: transparent;
 		border-radius: 10px;
+		.fa {
+			font-size: 120%;
+		}
 	}
 	.proyect:hover .overlay {
 		background-color: rgba(80, 24, 81,.7);
@@ -258,13 +265,17 @@ nav {
 	.btn {
 		background: $letras-color-two;
 		border: 1px solid $letras-color-two;
+		padding: 1.4% 3.6% !important;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
 	}
 }
 
 .contact {
 	@include pictFondo(url(../../dist/img/back-header.jpg));
 	background-attachment:fixed;
-	height: 100vh;
+	height: 90vh;
 	.cont-info {
 		background: rgba(0,0,0,.7);
 		height: 100vh;
@@ -274,6 +285,9 @@ nav {
 			font-size: 130%;
 		}
 		.section-contact {
+			.row {
+				margin: 5% 0;
+			}
 			padding: 64px 0;
 			a {
 				color: white;
@@ -283,6 +297,9 @@ nav {
 			}
 			.social {
 				font-size: 600%;
+				@media (min-width: 1px) and (max-width: 600px){
+					margin: 10% auto;
+				}
 			}
 			.cont-mail {
 				background: whitesmoke;
@@ -299,11 +316,9 @@ nav {
 }
 
 footer {
-	background: whitesmoke !important;
-	h5 {
-		color: $letras-color-one !important;
-	}
-	p, span {
+	background-color: whitesmoke !important;
+	padding-bottom: 3%;
+	span {
 		color: grey !important;
 	}
 	a {
