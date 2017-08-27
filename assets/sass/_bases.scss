@@ -25,7 +25,7 @@
 	bottom:0;
 	left:0;
 	z-index:-1;
- 	background: linear-gradient(to bottom, rgba(0,0,0,0.4) 50%,rgba(27,32,48,.8) 100%);
+ 	background: linear-gradient(to bottom, rgba(0,0,0,0.3) 50%,rgba(27,32,48,.7) 100%);
 }
 .header:before{
 	content:"";
@@ -37,7 +37,7 @@
 		-webkit-backface-visibility: hidden;
 		-webkit-transform: translateZ(0) scale(1.0, 1.0);
 		transform: translateZ(0);
-	background:#1B2030 url(../../dist/img/back-header.jpg) bottom no-repeat;
+	background:#1B2030 url(../../dist/img/back.png) center no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
 	animation: grow 60s linear 10ms infinite;

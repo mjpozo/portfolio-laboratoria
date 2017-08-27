@@ -1,6 +1,7 @@
 
 nav {
 	background: transparent;
+	-webkit-box-shadow: none;
 	ul {
 		padding-right: 5% !important;
 		li a {
@@ -19,6 +20,7 @@ nav {
 .nav-scroll {
 	transition: 0.9s;
 	background: whitesmoke;
+	-webkit-box-shadow: purple;
 	a {
 		color: $letras-color-one;
 	}
@@ -40,8 +42,18 @@ nav {
 		}
 		p {
 			color: $letras-color-one;
+			font-weight: 600;
 			font-family: $font-texts;
 			font-size: 120%;
+		}
+		.cont-me {
+			background: url('../../dist/img/me.jpg');
+			background-size: cover;
+			background-position: bottom left;
+			background-repeat: no-repeat;
+			height: 55vh;
+			width: 55vh;
+			border-radius: 50%;
 		}
 		img {
 			margin-right: 5%;
@@ -113,9 +125,13 @@ nav {
 		}
 		@media (min-width: 992px) and (max-width: 1400px){
 			height: 12vh;
-			.cont-icons.doc {
-				width: 26%;
-			}
+		}
+	}
+	.cont-icons.doc {
+		width: 25%;
+		@media (min-width: 992px) and (max-width: 1400px){
+			position: relative;
+			top: 3vh;
 		}
 	}
 }
@@ -234,7 +250,8 @@ nav {
 		}
 	}
 	.proyect:hover .overlay {
-		background-color: rgba(80, 24, 81,.7);
+		/*background-color: rgba(80, 24, 81,.7);*/
+		background-color: rgba(227, 62, 119, .7);
 	}
 	.proyect:hover .overlay .text {
 		height: 100%;
@@ -273,7 +290,7 @@ nav {
 }
 
 .contact {
-	@include pictFondo(url(../../dist/img/back-header.jpg));
+	@include pictFondo(url(../../dist/img/back.png));
 	background-attachment:fixed;
 	height: 90vh;
 	.cont-info {
