@@ -20,7 +20,7 @@ nav {
 .nav-scroll {
 	transition: 0.9s;
 	background: whitesmoke;
-	-webkit-box-shadow: purple;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);
 	a {
 		color: $letras-color-one;
 	}
@@ -29,8 +29,18 @@ nav {
 .about {
 	.section-about {
 		width: 90%;
-		padding: 5%;
-		background: whitesmoke;
+		background: url('../../dist/img/back_dos.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		padding: 0;
+		/*background: whitesmoke;*/
+		.pre_cont {
+			.op {
+				padding: 3%;
+				background: rgba(245, 245, 245,.8);
+			}
+		}
 		h1, h5 {
 			color: $letras-color-two;
 		}
