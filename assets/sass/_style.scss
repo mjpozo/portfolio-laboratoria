@@ -37,7 +37,7 @@ nav {
 		/*background: whitesmoke;*/
 		.pre_cont {
 			.op {
-				padding: 3%;
+				padding: 4%;
 				background: rgba(245, 245, 245,.8);
 			}
 		}
@@ -76,7 +76,15 @@ nav {
 }
 
 .tools {
-	padding: 7% 0;
+	background: url('../../dist/img/back_tres.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 7% 0;
+	.pre-tools {
+		background: rgba(250,250,250,.95);
+		padding: 4% 0 1% 0;	
+	}
 	h1 {
 		color: $letras-color-one;
 		margin-bottom: 10%;
@@ -90,7 +98,6 @@ nav {
 	.logo-front-end {
 		width: 80%;
 	}
-	
 	@media (min-width: 1px) and (max-width: 600px){
 		.logo {
 			width: 40vw;
@@ -113,6 +120,9 @@ nav {
 			position: relative;
 			left: -8vw;
 			width: 65%;
+		}
+		.mat {
+			margin-left: 20%;
 		}
 	}
 	.frame-lib {
@@ -147,16 +157,21 @@ nav {
 }
 
 .portfolio {
-	h1 {
-		margin-bottom: 6%;
-	}
+	margin-bottom: 6%;
 	.section-portfolio {
 		width: 90%;
-		padding: 5%;
-		margin-bottom: 4%;
-		background: whitesmoke;
-		h1 {
-			color: $letras-color-one;
+		background: url('../../dist/img/back_four.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		.pre-port {
+			padding: 5%;
+			margin-bottom: 4%;
+			background: rgba(245,245,245,.95);
+			h1 {
+				color: $letras-color-one;
+				margin-bottom: 6%;
+			}
 		}
 	}
 	#trello {
@@ -216,31 +231,25 @@ nav {
 			border-radius: 10px;
 			padding: 6px 13px;
 		}
-		.description {
+		/*.description {
 			font-size: 12px;
 			font-weight: bold;
 			color: whitesmoke;
 			@media (min-width: 1px) and (max-width: 600px){
 				font-size: 180%;
 			}
-		}
-		.description:hover {
-			background: $letras-color-one;
-			padding: 5px 10px;
-			border-radius: 10px;
-			transition: .5s;
-		}
+		}*/
 		ul li {
 			display: inline-block;
 			a {
 				font-size: 14px;
-				padding: 0 4px;
+				padding: 0 12px;
 				font-weight: bold;
 				color: whitesmoke;
 			}
 			a:hover {
 				color: $letras-color-two;
-			transition: .4s;
+				transition: .5s;
 			}
 		}
 	}
@@ -256,12 +265,11 @@ nav {
 		background-color: transparent;
 		border-radius: 10px;
 		.fa {
-			font-size: 120%;
+			font-size: 150%;
 		}
 	}
 	.proyect:hover .overlay {
-		/*background-color: rgba(80, 24, 81,.7);*/
-		background-color: rgba(227, 62, 119, .7);
+		background-color: rgba(80, 24, 81, .7);
 	}
 	.proyect:hover .overlay .text {
 		height: 100%;
