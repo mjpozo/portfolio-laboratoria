@@ -38,11 +38,3 @@ $(document).ready(function(){
 
 });
 
-/*'<div class="row">
-	<div class="col s12 m6 l6 xl6">
-		<a href="' + element.code + '" class="waves-effect waves-light modal-close btn right" target="_blank">code</a>
-	</div>
-	<div class="col s12 m6 l6 xl6">
-		<a href="' + element.url + '" class="waves-effect waves-light modal-close btn" target="_blank">demo</a>
-	</div>
-</div>*/
